@@ -1,24 +1,13 @@
-export interface Profile {
+export interface FinancialProfile {
+  id: string;
+  name: string;
+  financialScore: number;
+  // Add more fields as needed
+}
+
+export interface UserProfile {
     id: string;
     name: string;
     email: string;
-    age: number;
-    createdAt: Date;
-    updatedAt: Date;
-}
-
-export interface CreateProfileRequest {
-    name: string;
-    email: string;
-    age: number;
-}
-
-export interface UpdateProfileRequest {
-    name?: string;
-    email?: string;
-    age?: number;
-}
-
-export interface ProfileResponse {
-    profile: Profile;
+    financialProfiles: FinancialProfile[];
 }
