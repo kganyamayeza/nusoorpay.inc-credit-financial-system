@@ -1,0 +1,11 @@
+model FinancialProfile {
+  id        Int     @id @default(autoincrement())
+  userId    Int
+  income     Float
+  expenses   Float
+  savings    Float
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+}
