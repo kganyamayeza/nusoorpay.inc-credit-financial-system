@@ -1,4 +1,4 @@
-# Nusoor Inc. Financial Profiling System
+# Nusoor Inc. Financial Profiling System(MADE BY KGANYA MAYEZA)
 
 ## Overview
 Nusoor Inc. is developing a comprehensive financial profiling system that allows users to manage their financial profiles effectively. This application provides functionalities for creating, updating, retrieving, and deleting financial profiles, along with calculating savings and managing user authentication.
